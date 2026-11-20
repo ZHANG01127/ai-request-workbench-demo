@@ -1,0 +1,153 @@
+{
+  "environment": "本機",
+  "url": "http://127.0.0.1:8791/",
+  "startedAt": "2026-11-20T04:16:05.452655+00:00",
+  "viewport": [
+    1600,
+    900
+  ],
+  "checks": [
+    {
+      "name": "載入三筆實測草稿",
+      "detail": "原始案例 A、B、C 與三張需求卡一一對應",
+      "passed": true
+    },
+    {
+      "name": "阻擋缺漏欄位",
+      "detail": "管理部負責人為空白字元，確認按鈕停用",
+      "passed": true
+    },
+    {
+      "name": "補件與草稿保存",
+      "detail": "重新整理保留承辦人，補齊後可確認",
+      "passed": true
+    },
+    {
+      "name": "任務與狀態跨重整保存",
+      "detail": "A 進行中、B 已完成、C 待確認，共三筆",
+      "passed": true
+    },
+    {
+      "name": "部門與狀態交叉篩選",
+      "detail": "管理部 × 已完成為零筆，改選進行中只顯示 A",
+      "passed": true
+    },
+    {
+      "name": "下載並逐欄比對 JSON",
+      "detail": "三筆、一筆及零筆匯出均可解析，欄位與畫面一致",
+      "passed": true
+    },
+    {
+      "name": "原始證據獨立",
+      "detail": "人工修改後，原始 A 仍缺負責人",
+      "passed": true
+    },
+    {
+      "name": "窄螢幕與資源載入",
+      "detail": "390px 寬度無整頁橫向捲動，無失敗資源及腳本錯誤",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "browser": "Chromium 157.0.8103.79",
+  "finishedAt": "2026-11-20T04:16:08.884019+00:00",
+  "seconds": 3.431,
+  "assets": [
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "style.css",
+      "status": 200
+    },
+    {
+      "path": "app.js",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/verified.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/inputs.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/execution.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/response.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/parsed.json",
+      "status": 200
+    },
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "style.css",
+      "status": 200
+    },
+    {
+      "path": "app.js",
+      "status": 304
+    },
+    {
+      "path": "evidence/gemini/verified.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/inputs.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/parsed.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/execution.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/response.json",
+      "status": 200
+    },
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "style.css",
+      "status": 200
+    },
+    {
+      "path": "app.js",
+      "status": 304
+    },
+    {
+      "path": "evidence/gemini/verified.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/inputs.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/parsed.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/execution.json",
+      "status": 200
+    },
+    {
+      "path": "evidence/gemini/attempt-01/response.json",
+      "status": 200
+    }
+  ]
+}

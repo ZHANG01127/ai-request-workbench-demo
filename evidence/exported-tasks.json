@@ -1,0 +1,68 @@
+[
+  {
+    "id": "A",
+    "department": "管理部",
+    "title": "請購單缺漏欄位整理",
+    "problem": "承辦人需要逐一確認請購單缺漏的欄位。",
+    "output": "一份請購單待補清單。",
+    "steps": [
+      "建議盤點現行請購單所有欄位",
+      "建議標示出所有缺失欄位",
+      "建議產出待補資訊清單供承辦人使用"
+    ],
+    "owner": "測試同仁 A",
+    "confirm": [
+      "請購單表單版本",
+      "需檢核的必填欄位清單"
+    ],
+    "missing": [],
+    "confirmed": true,
+    "status": "進行中",
+    "sourceRequest": "希望把請購單缺漏欄位整理成待補清單，方便承辦人確認。",
+    "modelRun": "xcj_aojnNaGM1e8P0YjIuAg"
+  },
+  {
+    "id": "B",
+    "department": "業務部",
+    "title": "每週客戶拜訪紀錄整理",
+    "problem": "每週客戶拜訪紀錄缺乏系統性整理。",
+    "output": "一份拜訪紀錄整理後的待辦事項列表。",
+    "steps": [
+      "建議彙整每週客戶拜訪紀錄內容",
+      "建議篩選出需追蹤的項目",
+      "建議將項目轉化為具體的待辦事項"
+    ],
+    "owner": "測試同仁 B",
+    "confirm": [
+      "拜訪紀錄資料來源",
+      "待辦事項的優先級別"
+    ],
+    "missing": [],
+    "confirmed": true,
+    "status": "已完成",
+    "sourceRequest": "希望將每週客戶拜訪紀錄整理成待辦事項，負責人為測試同仁 B。",
+    "modelRun": "xcj_aojnNaGM1e8P0YjIuAg"
+  },
+  {
+    "id": "C",
+    "department": "節目部",
+    "title": "節目企劃會議紀錄分工",
+    "problem": "節目企劃會議紀錄缺乏明確的工作分配。",
+    "output": "一份包含明確工作分工的會議紀錄摘要。",
+    "steps": [
+      "建議研讀節目企劃會議記錄內容",
+      "建議梳理出待完成的各項任務",
+      "建議確認並明確指派各項任務負責人"
+    ],
+    "owner": "測試同仁 C",
+    "confirm": [
+      "會議紀錄完整性",
+      "各項工作項目的執行細節"
+    ],
+    "missing": [],
+    "confirmed": true,
+    "status": "待確認",
+    "sourceRequest": "希望將節目企劃會議紀錄整理成工作分工，負責人為測試同仁 C。",
+    "modelRun": "xcj_aojnNaGM1e8P0YjIuAg"
+  }
+]

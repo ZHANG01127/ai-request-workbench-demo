@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[\n  {\n    \"id\": \"A\",\n    \"department\": \"管理部\",\n    \"title\": \"請購單缺漏欄位整理\",\n    \"problem\": \"請購單存在缺漏欄位，造成作業困擾。\",\n    \"output\": \"一份請購單待補清單。\",\n    \"steps\": [\n      \"建議盤點現行請購單所有欄位\",\n      \"建議標示出所有缺失欄位\",\n      \"建議產出待補資訊清單供承辦人使用\"\n    ],\n    \"owner\": \"\",\n    \"confirm\": [\n      \"請購單表單版本\",\n      \"需檢核的必填欄位清單\"\n    ],\n    \"missing\": [\n      \"負責人\"\n    ]\n  },\n  {\n    \"id\": \"B\",\n    \"department\": \"業務部\",\n    \"title\": \"每週客戶拜訪紀錄整理\",\n    \"problem\": \"每週客戶拜訪紀錄缺乏系統性整理。\",\n    \"output\": \"一份拜訪紀錄整理後的待辦事項列表。\",\n    \"steps\": [\n      \"建議彙整每週客戶拜訪紀錄內容\",\n      \"建議篩選出需追蹤的項目\",\n      \"建議將項目轉化為具體的待辦事項\"\n    ],\n    \"owner\": \"測試同仁 B\",\n    \"confirm\": [\n      \"拜訪紀錄資料來源\",\n      \"待辦事項的優先級別\"\n    ],\n    \"missing\": []\n  },\n  {\n    \"id\": \"C\",\n    \"department\": \"節目部\",\n    \"title\": \"節目企劃會議紀錄分工\",\n    \"problem\": \"節目企劃會議紀錄缺乏明確的工作分配。\",\n    \"output\": \"一份包含明確工作分工的會議紀錄摘要。\",\n    \"steps\": [\n      \"建議研讀節目企劃會議記錄內容\",\n      \"建議梳理出待完成的各項任務\",\n      \"建議確認並明確指派各項任務負責人\"\n    ],\n    \"owner\": \"測試同仁 C\",\n    \"confirm\": [\n      \"會議紀錄完整性\",\n      \"各項工作項目的執行細節\"\n    ],\n    \"missing\": []\n  }\n]",
+            "thoughtSignature": "Eo8BCowBAWkUfRPbNBa8KBRCE+xKrvaSNiqe4XxPMW5b34VXg3ckf21gtbnj6G28ac9uu3EotIyOCP8RBJjXJKWWtHUO1BT1AEGO/ntzPaZkKcg+XlMR67muBFenS8lI7NjjG8vBl1zvzcYmGLlWF4Spz1fX2T/i/bRyqqzQEto8xg8LKlVwoct4ex3UgiGNwAI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 518,
+    "totalTokenCount": 826,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 308
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "xcj_aojnNaGM1e8P0YjIuAg"
+}

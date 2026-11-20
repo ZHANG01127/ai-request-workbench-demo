@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-11-20T04:12:53.427+00:00",
+  "requestedModel": "gemini-3.1-flash-lite",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent",
+  "caseCount": 3,
+  "projectTier": "Free tier（於 AI Studio 專案列核對）",
+  "status": "驗證通過",
+  "httpStatus": 200,
+  "modelVersion": "gemini-3.1-flash-lite",
+  "responseId": "xcj_aojnNaGM1e8P0YjIuAg",
+  "usageMetadata": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 518,
+    "totalTokenCount": 826,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 308
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "endedAt": "2026-11-20T04:12:56.356+00:00",
+  "elapsedSeconds": 2.928
+}

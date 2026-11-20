@@ -1,0 +1,5 @@
+[
+  {"id":"A","department":"管理部","subject":"請購單缺漏欄位","request":"希望把請購單缺漏欄位整理成待補清單，方便承辦人確認。","owner":"","synthetic":true},
+  {"id":"B","department":"業務部","subject":"每週客戶拜訪紀錄","request":"希望將每週客戶拜訪紀錄整理成待辦事項，負責人為測試同仁 B。","owner":"測試同仁 B","synthetic":true},
+  {"id":"C","department":"節目部","subject":"節目企劃會議紀錄","request":"希望將節目企劃會議紀錄整理成工作分工，負責人為測試同仁 C。","owner":"測試同仁 C","synthetic":true}
+]

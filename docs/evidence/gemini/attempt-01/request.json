@@ -1,0 +1,69 @@
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "以下為三筆合成示範資料。請用繁體中文，為每一案建立草稿。保留 id。department 是部門，title 是簡明任務名稱，problem 是原始問題，output 是預期產出，steps 是建議步驟，owner 只能逐字使用提供的人名，未提供請填空字串，confirm 是需要人工確認的項目，missing 是尚缺少的資訊。負責人未提供時須列入 missing。建議只能寫為建議，不得把未提供的資訊補成事實，不得新增期限、人名或公司。\n[{\"id\": \"A\", \"department\": \"管理部\", \"subject\": \"請購單缺漏欄位\", \"request\": \"希望把請購單缺漏欄位整理成待補清單，方便承辦人確認。\", \"owner\": \"\", \"synthetic\": true}, {\"id\": \"B\", \"department\": \"業務部\", \"subject\": \"每週客戶拜訪紀錄\", \"request\": \"希望將每週客戶拜訪紀錄整理成待辦事項，負責人為測試同仁 B。\", \"owner\": \"測試同仁 B\", \"synthetic\": true}, {\"id\": \"C\", \"department\": \"節目部\", \"subject\": \"節目企劃會議紀錄\", \"request\": \"希望將節目企劃會議紀錄整理成工作分工，負責人為測試同仁 C。\", \"owner\": \"測試同仁 C\", \"synthetic\": true}]"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "responseMimeType": "application/json",
+    "responseSchema": {
+      "type": "ARRAY",
+      "items": {
+        "type": "OBJECT",
+        "properties": {
+          "id": {
+            "type": "STRING"
+          },
+          "department": {
+            "type": "STRING"
+          },
+          "title": {
+            "type": "STRING"
+          },
+          "problem": {
+            "type": "STRING"
+          },
+          "output": {
+            "type": "STRING"
+          },
+          "steps": {
+            "type": "ARRAY",
+            "items": {
+              "type": "STRING"
+            }
+          },
+          "owner": {
+            "type": "STRING"
+          },
+          "confirm": {
+            "type": "ARRAY",
+            "items": {
+              "type": "STRING"
+            }
+          },
+          "missing": {
+            "type": "ARRAY",
+            "items": {
+              "type": "STRING"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "department",
+          "title",
+          "problem",
+          "output",
+          "steps",
+          "owner",
+          "confirm",
+          "missing"
+        ]
+      }
+    }
+  }
+}
