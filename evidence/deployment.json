@@ -1,0 +1,59 @@
+{
+  "repository": "https://github.com/ZHANG01127/ai-request-workbench-demo",
+  "site": "https://zhang01127.github.io/ai-request-workbench-demo/",
+  "verifiedAt": "2026-11-20T04:25:18.826919+00:00",
+  "deployment": {
+    "html_url": "https://github.com/ZHANG01127/ai-request-workbench-demo/actions/runs/44674079396",
+    "name": "pages build and deployment",
+    "head_branch": "gh-pages",
+    "head_sha": "a68695b76936aee481b7f1b3075e21b9d32e43de",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-11-20T04:23:31Z",
+    "updated_at": "2026-11-20T04:24:00Z"
+  },
+  "publishedFiles": {
+    "app.js": {
+      "httpStatus": 200,
+      "sha256": "e1c8a392f080f08e57c897fcc2ea6ad4adb6661e38e6082b84df62732764e5a9"
+    },
+    "evidence/browser.json": {
+      "httpStatus": 200,
+      "sha256": "9fae8b2e24f89b9cd8b0147f04a0e21fba9dc927c49a46bd973d0755545a9c9f"
+    },
+    "evidence/gemini/attempt-01/execution.json": {
+      "httpStatus": 200,
+      "sha256": "d167691ce25525f6a7c9081c84d455084238513f2271758206a321a87c9287f2"
+    },
+    "evidence/gemini/attempt-01/parsed.json": {
+      "httpStatus": 200,
+      "sha256": "580cfc773361a735391d383d1e3e27a514a498e5c1b0f02bb4603172ae818614"
+    },
+    "evidence/gemini/attempt-01/request.json": {
+      "httpStatus": 200,
+      "sha256": "5a7476dbc9778388a3297654655b4aaac6483d9a31a9921377127ad973a2079c"
+    },
+    "evidence/gemini/attempt-01/response.json": {
+      "httpStatus": 200,
+      "sha256": "8cba0c4e9705fb76bf952ac05a9b1b050376dccf63030b4256ddd1b9e1bdfa63"
+    },
+    "evidence/gemini/inputs.json": {
+      "httpStatus": 200,
+      "sha256": "53992beb2266f8d46e73d805c6e0c6b968c42fbaf1b1d287bf6d1c4be6bdb79a"
+    },
+    "evidence/gemini/verified.json": {
+      "httpStatus": 200,
+      "sha256": "30a5e4d15569f7b915920d33eb8a9522055cfa7313433d4461861c3ae88f88ab"
+    },
+    "index.html": {
+      "httpStatus": 200,
+      "sha256": "836d97e14bb4973371f2c7cc3c30462848f5024028e8cb2d522df8c8eef051c4"
+    },
+    "style.css": {
+      "httpStatus": 200,
+      "sha256": "070b06a0821d7fcbc5ad73418730c1c19cda52fd13a065b5ad4726b654ff9a88"
+    }
+  },
+  "browserReport": "published-browser.json",
+  "screenshot": "screenshots/06_published_site.png"
+}

@@ -31,7 +31,7 @@ def check(name, detail, condition):
 
 def capture(page, name):
     page.evaluate('document.fonts.ready')
-    page.screenshot(path=screens/name, animations='disabled')
+    page.screenshot(path=screens/name, animations='disabled', full_page=(name=='06_published_site.png'))
 
 
 def test(page):
